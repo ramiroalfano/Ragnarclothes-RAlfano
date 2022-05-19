@@ -325,6 +325,13 @@ opacity: 1;
     @media only screen and (max-width: 767px){
     /*index*/
     /*section productos destacados*/
+    .banner{
+        justify-content: center;
+        width: 100%;
+    }
+    .principal{
+        font-size: 2rem;
+    }
     .tituloprod{
         background-color: #c3c3c3;
         border-style: double;
@@ -389,7 +396,7 @@ opacity: 1;
     }
     .preguntas ul li a{
         text-decoration: none;
-        color: #050505;
+        color: #ffffff;
     }
     .preguntas ul li a:hover{
         color: #19169e;
@@ -409,7 +416,7 @@ opacity: 1;
     }
     .redes a{
         text-decoration: none;
-        color: #040404;
+        color: #ffffff;
     }
     .redes a:hover{
         color: #110eab;
