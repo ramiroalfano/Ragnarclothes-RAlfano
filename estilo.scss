@@ -191,17 +191,12 @@ footer{
 .redes{
     grid-area: redes;
     text-align: center;
+    grid-template-columns: auto;
     margin: 2rem;
     font-size: 2rem;
     gap: 3rem;
 }
-.redes h3{
-    font-size: 2rem;
-    color:#eaeaea;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration-style:initial white;
-    margin-bottom: 2rem;
-}
+
 .redes a{
     text-decoration: none;
     color: #cccccc;

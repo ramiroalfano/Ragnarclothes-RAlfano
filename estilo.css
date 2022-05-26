@@ -38,6 +38,11 @@ box-shadow: -9px 9px 26px -6px rgba(0,0,0,0.75);
 -webkit-box-shadow: -9px 9px 26px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: -9px 9px 26px -6px rgba(0,0,0,0.75);
 }
+.carrito{
+    color:white;
+    width: 6px;
+    margin-right: 3rem;
+}
 /*fin navbar*/
 /*inicio banner*/
 .banner{
@@ -153,8 +158,8 @@ footer{
     background-size: cover;
     width: 100%;
     display: grid;
-    grid-template-areas:"preguntas logofooter redes" ;
-    grid-template-columns: 2fr 0.5fr 2fr;
+    grid-template-areas:"logofooter preguntas redes" ;
+    grid-template-columns: 2fr 4frfr 0.5fr;
     border-radius: 5px;
     padding: 1rem;
     margin-top: 4rem;
@@ -188,13 +193,7 @@ footer{
 .preguntas ul li a:hover{
     color: #1c19d2;
 }
-.redes{
-    grid-area: redes;
-    text-align: center;
-    margin: 2rem;
-    font-size: 2rem;
-    gap: 3rem;
-}
+
 .redes h3{
     font-size: 2rem;
     color:#eaeaea;
@@ -202,14 +201,34 @@ footer{
     text-decoration-style:initial white;
     margin-bottom: 2rem;
 }
+.redes{
+    grid-area: redes;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5rem;
+}
 .redes a{
+    width: 25%;
+    font-size: 2rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
     text-decoration: none;
-    color: #cccccc;
-    gap: 15rem;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.4s;
+    box-shadow: rgb(0, 0, 0)
+    3px 3px 6px 0px,
+    rgb(27, 26, 26)
+    -3px -3px 6px 1px;
 }
 .redes a:hover{
-    color: #1c19d2;
-} 
+    transform: translateY(-10px);
+}
 .fa-whatsapp{
     color: rgb(255, 255, 255);
     background-color: #3ec34f;
