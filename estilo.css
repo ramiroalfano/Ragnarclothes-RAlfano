@@ -460,7 +460,10 @@ p{
 } 
 }
 /*productos*/
-
+.bannerproductos{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
+    }
 .produc{
     display: grid;
     grid-template-columns: repeat(auto-fit, 
