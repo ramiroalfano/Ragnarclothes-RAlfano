@@ -1,7 +1,7 @@
 body{
 
     background-image: url(imagenes/Meteor.svg);
-    background-size:contain
+    background-size: contain;
     font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
@@ -142,6 +142,7 @@ footer{
     background-image: linear-gradient(to top, #434343 0%, black 100%);
     background-size: cover;
     width: 100%;
+    color: rgb(131, 131, 131);
 }
 .lista{
     color: white;
@@ -153,7 +154,7 @@ footer{
 }
 /*wpp button*/
 .fa-whatsapp{
-    color: rgb(255, 255, 255);
+    color: #fff;
     background-color: #3ec34f;
     padding: 2rem;
     font-size: 3rem;
@@ -459,7 +460,7 @@ p{
     display: block;
 } 
 }
-/*productos*/
+/*inicio productos*/
 .bannerproductos{
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 14%, rgba(88,88,88,1) 62%, rgba(33,45,108,0.9476832969515931) 100%);
