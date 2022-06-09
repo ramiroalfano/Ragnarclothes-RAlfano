@@ -1,5 +1,4 @@
 body{
-
     background-image: url(imagenes/Meteor.svg);
     background-size: contain;
     font-family: 'Source Sans Pro', sans-serif;
@@ -304,6 +303,10 @@ footer{
     .sectiondudas{
         display: block;
         text-align: justify;
+    }
+    /*footer*/
+    footer{
+        color: rgb(131, 131, 131);;
     }
 }
 /*inicio css pagina contacto*/
